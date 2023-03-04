@@ -9,12 +9,14 @@
   <body>
     <div id="app">
 
-      <div class="header">
-        <img id="logo" class="logo" src="./glitched2.gif" alt="">
+      <div id="header" class="header">
+        <!-- <img id="logo" class="logo" src="./logo.png" alt=""> -->
+        <div class="title">평범한 학생 개발자의</div>
+        <div class="title2">Portfolio</div>
       </div>
       
       <div id="section" class="inactive">
-        <div class="up">위로 올려주세요.</div>
+        <div class="bar">&nbsp;</div>
 
         <!-- About -->
         <div class="about up2">
@@ -29,7 +31,7 @@
           <div class="next"></div>
           <div class="graphs">
             <div class="info about_contents">
-              <div class="content">소프트웨어개발과에</div>
+              <div class="content"><strong>소프트웨어개발과</strong>에</div>
               <div class="content op2">재학중입니다.</div>
             </div>
 
@@ -60,14 +62,14 @@
               <div class="award_usr op1">손대고 코딩풀기 팀</div>
               <div class="award_usr op2">박시혁, 김민서, <strong>손보석</strong>, 김수윤</div>
             </div>
-            <div class="graph"></div>
             <div class="spec_info spec_contents">
               <img class="award_img" src="./goorm.jpg" alt="">
             </div>
           </div>
         </div>
 
-        <div class="project">
+        <!-- Project -->
+        <div class="project up2">
           <div class="pj_info">
             <img style="width: 80px; height: 80px; border-radius: 20px; margin-right: 20px; object-fit: cover; filter: brightness(80%);" src="./4.png" alt="">
             <div class="about_contents">
@@ -78,7 +80,9 @@
 
           <div class="next"></div>
           <div class="card-l">
-            <img class="card-img-l" src="./projects/gituser.png" alt="">
+            <a class="pj_link" href="https://git.dyacode.kro.kr" target="_blank">
+              <img class="card-img-l" src="./projects/gituser.png" alt="">
+            </a>
             <div class="texts">
               <div class="card-title">GitUser</div>
               <div class="card-info op2">깃허브의 유저 정보와 팔로잉, 팔로워 정보를 가져와 표시해주는 웹사이트입니다.</div>
@@ -92,17 +96,66 @@
               <div class="card-info op2">블루아카이브를 그대로 웹으로 옮겨온 비공식 클론 웹사이트입니다.</div>
               <div class="card-link"></div>
             </div>
-            <img class="card-img-r" src="./projects/bluearchive.png" alt="">
+            <a class="pj_link" href="https://bluearchive.dyacode.kro.kr" target="_blank">
+              <img class="card-img-r" src="./projects/bluearchive.png" alt="">
+            </a>
+          </div>
+
+          <div class="card-l">
+            <a class="pj_link" href="https://github.com/dya-code/Annumity" target="_blank">
+              <img class="card-img-l" src="./projects/annumity.png" alt="">
+            </a>
+            <div class="texts">
+              <div class="card-title">Annumity</div>
+              <div class="card-info op2">라프텔, 애니플러스 API를 이용하여 개발한 애니시청에 도움을 주는 서비스입니다.</div>
+              <div class="card-link"></div>
+            </div>
           </div>
         </div>
 
-        <div class="card-l">
-          <img class="card-img-l" src="./projects/annumity.png" alt="">
-          <div class="texts">
-            <div class="card-title">Annumity</div>
-            <div class="card-info op2">라프텔, 애니플러스 API를 이용하여 개발한 애니시청에 도움을 주는 서비스입니다.</div>
-            <div class="card-link"></div>
+
+
+        <div class="contact up2">
+          <div class="spec_info">
+            <div class="spec_contents">
+              <div class="content op2">언제든지 편하게</div>
+              <div class="content">저에게 <strong>연락</strong>해주세요.</div>
+            </div>
+            <img style="width: 80px; height: 80px; border-radius: 20px; margin-left: 20px; filter: brightness(80%)" src="./4.jpg" alt="">
           </div>
+
+          <div class="next"></div>
+
+          <!-- <div class="contact-card-contain">
+
+          </div> -->
+          <a class="github-card" href="https://github.com/dya-code">
+            <img class="github-logo" src="contact/github.png" alt="">
+            <div class="contact-text-contain">
+              <div class="contact-platform">Github</div>
+              <div class="contact-text">dya-code</div>
+            </div>
+          </a>
+          <a class="discord-card" href="https://discord.com/users/884954874943520788">
+            <img class="discord-logo" src="contact/discord.svg" alt="">
+            <div class="contact-text-contain">
+              <div class="contact-platform">Discord</div>
+              <div class="contact-text">DIA#0512</div>
+            </div>
+          </a>
+          <a class="instagram-card" href="https://">
+            <img class="instagram-logo" src="contact/instagram.svg" alt="">
+            <div class="contact-text-contain">
+              <div class="contact-platform">Instagram</div>
+              <div class="contact-text">dy4code</div>
+            </div>
+          </a>
+        </div>
+
+        <div class="inheader">
+          <!-- <img id="logo" class="logo" src="./logo.png" alt=""> -->
+          <div class="title">이런 사람, 저는</div>
+          <div class="title2">손보석 입니다.</div>
         </div>
 
       </div>
